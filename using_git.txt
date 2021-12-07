@@ -1,0 +1,5 @@
+https://earth-95.tistory.com/87 : git 사용법
+1. + 버튼을 눌려서 스테이징
+2. 메모와 함께 commite : 로컬저장소에 커밋한것
+3. 터미널에서 git remote add origin https://github.com/bigreen8801/workspace.git
+4. git에 올라감
