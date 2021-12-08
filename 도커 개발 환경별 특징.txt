@@ -9,3 +9,5 @@
   - 터미널 환경에서 docker run --gpus all -it tensorflow/tensorflow:latest-gpu-jupyter
     : 그래픽카드 잡음
     : 컨테이너가 살아있다면 정지시켰다가 다시 시작해도 그래픽카드 잡음
+
+즉, 환경이 불안전함으로 지속적으로 git에 작업별 업로드 요망
