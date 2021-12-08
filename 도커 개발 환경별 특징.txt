@@ -1,0 +1,11 @@
+1. pytorch (nvidia-docker를 통하여 pull하였을 때)
+  - vscode 도커환경에서 바로 Runinteraction : 그래픽카드 못잡음
+  - 터미널 환경에서 nvidia-docker container run -it --name "pytorch-gpu" pytorch/pytorch:latest
+    : 그래픽카드 잡음
+    : 컨테이너가 살아있다면 정지시켰다가 다시 시작해도 그래픽카드 잡음
+
+2. tensorflow (nvidia/cuda 설치, tensorflow/tensorflow:last-gpu로 실행할 때)
+  - vscode 도커환경에서 바로 Runinteraction : 그래픽카드 못잡음
+  - 터미널 환경에서 docker run --gpus all -it tensorflow/tensorflow:latest-gpu-jupyter
+    : 그래픽카드 잡음
+    : 컨테이너가 살아있다면 정지시켰다가 다시 시작해도 그래픽카드 잡음
